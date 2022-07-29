@@ -4,7 +4,7 @@ from textwrap import indent
 import pandas as pd
 
 #get all folder names from the specific folders
-Mainpath = "E:/PM Adept/Programacion/JsontoCSV/remoteNYC Slack export Jan 3 2021 - Jul 28 2022 (1)/"
+Mainpath = "[YOUR_MAIN_FOLDER_PATH]"
 list_subfolders = [f.name for f in os.scandir(Mainpath) if f.is_dir()]
 
 #doing the same procces for every folder name
